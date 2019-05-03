@@ -1,0 +1,28 @@
+div.spinner {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.spinner > .wheel {
+  width: 150px;
+  height: 30px;
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 5px;
+  position: relative;
+  transition: transform 2s;
+}
+
+p#finger {
+  position: absolute;
+  font-size: 40px;
+  right: -47px;
+  top: -58px;
+}
+
+div.spinner > .wheel:hover {
+  transform: rotate(2347deg);
+}

@@ -1,0 +1,38 @@
+/* BARKEEPER BUTTON*/
+.btn-barkeeper {
+}
+.btn-barkeeper a {
+  padding: 10px 15px;
+  background: rgba(148, 156, 170, 0.8);
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+}
+.btn-barkeeper a:hover {
+  background: rgba(148, 156, 170, 1);
+}
+.btn-barkeeper a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+
+/* CLASSIC BUTTON */
+.btn {
+  width: 200px;
+  margin: 0 auto;
+  background-color: rgba(148, 156, 170, 0.6);
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.btn:hover {
+  background-color: rgb(148, 156, 170);
+  color: white;
+}
+.btn a {
+  color: white;
+}
+

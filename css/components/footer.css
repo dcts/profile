@@ -1,0 +1,17 @@
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 10px;
+  margin: 0;
+}
+
+.list-inline i {
+  font-size: 40px;
+}
+
+li a {
+  color: rgb(50,50,50);
+}
+
+li a:hover {
+  opacity: 0.5;
+}

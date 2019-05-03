@@ -1,0 +1,53 @@
+/* CARD MAIN */
+.card {
+  background-color: rgba(250,250,250,0.7);
+  padding: 40px;
+  text-align: center;
+  margin: 25px;
+  border-radius: 6px;
+}
+
+
+/* CARD BARKEEPERBASEL */
+.card-barkeeper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-barkeeper-logo {
+  width:30%;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  border-radius: 5px 0 0 5px;
+
+}
+
+.card-barkeeper-logo > a > img {
+  width:85%;
+  height: 100%;
+}
+.card-barkeeper-details {
+  width: 80%;
+  height: 140px;
+  background-color: white;
+  border-radius: 0 5px 5px 0;
+
+}
+.card-barkeeper-details h3 {
+  padding-bottom: 10px;
+}
+.card-barkeeper-logo > a > img {
+  transition: transform 1s;
+}
+.card-barkeeper-logo > a > img:hover {
+  transform: rotate(360deg);
+}
+
+
+#spotify-player {
+  border: 0;
+  width: 500px;
+}
